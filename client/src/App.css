@@ -1,0 +1,10 @@
+.sheet-transition {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transform: translateX(-100%); /* Start hidden off-screen */
+    opacity: 0; /* Start hidden */
+}
+
+.sheet-transition.open {
+    transform: translateX(0); /* Slide in */
+    opacity: 1; /* Fully visible */
+}
