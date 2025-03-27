@@ -18,9 +18,9 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "../ui/sheet";
     },
     {
       id: "products",
-      label: "Cars",
+      label: "Products",
       path: "/admin/products",
-      icon: <Car />,
+      icon: <ShoppingCart/> ,
     },
   ];
 
